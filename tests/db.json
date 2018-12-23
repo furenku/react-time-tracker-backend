@@ -1,0 +1,125 @@
+{
+    "sessions": [
+        {
+            "id": 1,
+            "name": "Test Session 1",
+            "session_start": 0,
+            "session_end": 0,
+            "description": [],
+            "comments": [],
+            "labels": [],
+            "types": [1],
+            "participants": [
+                3
+            ]
+        }
+    ],
+    
+    "tasks": [
+        {
+            "id": 1,
+            "name": "Test Task 1",
+            "sessions": [],
+            "description": [],
+            "comments": [],
+            "labels": [],
+            "types": [1],
+            "asignee": 3
+        }
+    ],
+    "activities": [
+        {
+            "id": 1,
+            "name": "Test Activity 1",
+            "duration": 0,
+            "tasks": [],
+            "description": [],
+            "comments": [],
+            "labels": [],
+            "types": [1]
+        }
+    ],
+
+
+    
+    "session_types": [
+        {
+            "id": 1,
+            "name": "test-session-type",
+            "singular": "Test Session Type",
+            "plural": "Test Session Types"
+        }
+    ],
+    
+    "task_types": [
+        {
+            "id": 1,
+            "name": "test-task-type",
+            "singular": "Test Task Type",
+            "plural": "Test Task Types"
+        }
+    ],
+    
+    "activity_types": [
+        {
+            "id": 1,
+            "name": "test-activity-type",
+            "singular": "Test Activity Type",
+            "plural": "Test Activity Types"
+        }
+    ],
+    
+
+
+    "teams": [
+        {
+            "id": 1,
+            "name": "Test Team 1",
+            "users": [
+                2,
+                3
+            ],
+            "activities": [
+                1
+            ]
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "username": "timetracker",
+            "password": "timetracker",
+            "user_role": "administrator"
+        },
+        {
+            "id": 2,
+            "username": "manager",
+            "password": "manager",
+            "user_role": "manager"
+        },
+        {
+            "id": 3,
+            "username": "testuser",
+            "password": "testuser",
+            "user_role": "user"
+        }
+    ],
+    "user_roles": [
+        {
+            "id": 1,
+            "name": "administrator",
+            "labels": {
+                "singular": "Administrator",
+                "plural": "Administrators"
+            }
+        },
+        {
+            "id": 2,
+            "name": "user",
+            "labels": {
+                "singular": "User",
+                "plural": "Users"
+            }
+        }
+    ]
+}
