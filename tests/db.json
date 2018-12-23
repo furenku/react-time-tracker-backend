@@ -27,11 +27,11 @@
             "asignee": 3
         }
     ],
+
     "activities": [
         {
             "id": 1,
             "name": "Test Activity 1",
-            "duration": 0,
             "tasks": [],
             "description": [],
             "comments": [],
@@ -40,7 +40,16 @@
         }
     ],
 
+    "projects": [
+        {
+            "id": 1,
+            "name": "Test Project 1",
+            "activities": [],
+            "description": []
+        }
+    ],
 
+    
     
     "session_types": [
         {
@@ -81,9 +90,25 @@
             ],
             "activities": [
                 1
+            ],
+            "groups": [
+                {
+                    "id": 1,
+                    "name": "Test Group 1",
+                    "users": [
+                        2,
+                        3
+                    ],
+                    "activities": [
+                        1
+                    ]
+                }
             ]
         }
     ],
+    
+    
+    
     "users": [
         {
             "id": 1,
