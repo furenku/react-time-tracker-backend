@@ -5,7 +5,7 @@
             "name": "Test Session 1",
             "session_start": 0,
             "session_end": 0,
-            "description": [],
+            "description": "Mollit sint ut officia ullamco ullamco. Mollit eiusmod consectetur sint adipisicing amet nulla anim deserunt do amet tempor. Enim non adipisicing non proident sint sint. Nulla sit nisi laborum occaecat ullamco nostrud laboris quis cillum enim amet irure. Irure duis ea incididunt duis. Veniam laboris consectetur exercitation ad cupidatat esse. Anim ipsum et fugiat duis.",
             "comments": [],
             "labels": [],
             "types": [1],
@@ -20,7 +20,7 @@
             "id": 1,
             "name": "Test Task 1",
             "sessions": [],
-            "description": [],
+            "description": "Dolor excepteur mollit magna cupidatat eu. Anim aliquip cillum officia duis commodo eu proident. Consequat minim officia excepteur dolore cillum labore mollit ad pariatur commodo. Sit non enim ad Lorem cillum consectetur mollit pariatur cupidatat cupidatat. Officia ullamco consectetur anim commodo ex deserunt adipisicing ut ut aliqua sint proident culpa nostrud.",
             "comments": [],
             "labels": [],
             "types": [1],
@@ -33,7 +33,7 @@
             "id": 1,
             "name": "Test Activity 1",
             "tasks": [],
-            "description": [],
+            "description": "Exercitation cillum velit eiusmod esse proident elit. Magna dolor proident Lorem cillum nostrud nisi officia ad tempor duis mollit. Tempor nulla reprehenderit tempor ullamco eu eiusmod. Do ea id mollit duis ullamco laboris. Non deserunt esse eiusmod duis quis est officia ad enim sunt amet id voluptate.",
             "comments": [],
             "labels": [],
             "types": [1]
@@ -44,8 +44,20 @@
         {
             "id": 1,
             "name": "Test Project 1",
-            "activities": [],
-            "description": []
+            "activities": [1],
+            "description": "Irure cillum veniam voluptate cillum tempor ullamco duis magna cupidatat. Sunt anim tempor excepteur sint nostrud elit exercitation incididunt elit minim veniam veniam. Magna ex exercitation consectetur ex reprehenderit voluptate sunt dolor. Esse qui reprehenderit do aute dolor consectetur ullamco veniam dolor sit consectetur irure id ut."
+        },
+        {
+            "id": 2,
+            "name": "Test Project 2",
+            "activities": [1],
+            "description": "Consequat reprehenderit ea aliqua labore aute. Ex et dolor reprehenderit consequat irure. Ex aliqua ut laborum minim enim magna adipisicing laborum amet consectetur. Nulla deserunt officia eiusmod sit aliqua pariatur. Sit officia nulla do eiusmod ipsum."
+        },
+        {
+            "id": 3,
+            "name": "Test Project 3",
+            "activities": [1],
+            "description": "Occaecat deserunt et et adipisicing nisi reprehenderit fugiat voluptate labore nostrud velit pariatur pariatur enim. Duis sunt et mollit aliquip qui veniam minim do id tempor. Aliqua do in incididunt ipsum aliqua aliqua consectetur sunt. Fugiat anim excepteur ipsum aliquip consequat eu voluptate officia laboris voluptate mollit. Amet minim fugiat adipisicing ut ad ea excepteur est ipsum."
         }
     ],
 
@@ -88,9 +100,6 @@
                 2,
                 3
             ],
-            "activities": [
-                1
-            ],
             "groups": [
                 {
                     "id": 1,
@@ -99,7 +108,7 @@
                         2,
                         3
                     ],
-                    "activities": [
+                    "projects": [
                         1
                     ]
                 }
